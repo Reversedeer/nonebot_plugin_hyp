@@ -1,11 +1,15 @@
-"""依赖文件"""
+"""配置文件"""
 
-# import nonebot
 from pydantic import BaseModel
 
 
-class Utils(BaseModel):
-    usage = """
+class Config(BaseModel):
+	hypixel_apikey: str = '1145141919810'
+	antisniper_apikey: str = '1145141919810'
+
+
+class Utils:
+	usage: str = """
 		指令1: help 显示指令列表
 		指令2:mc|minecraft|profile|skin|mcskin <玩家> 查询玩家 Minecraft 信息
 		指令3:mcuuid|uuid <UUID> 查询 UUID 玩家信息
@@ -33,5 +37,5 @@ class Utils(BaseModel):
 		指令25:of|optifine <玩家> 查询 OptiFine 披风
 	"""
 
-    hypixel_apikey: int = 1145141919810
-    antisniper_apikey: int = 1145141919810
+
+utils = Utils()
