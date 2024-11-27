@@ -67,10 +67,10 @@ pip install --upgrade nonebot-plugin-hyp
 
 ## 配置
 
-|      config       | type |    default    |              example              | usage | 是否必须 |
-| :---------------: | :--: | :-----------: | :-------------------------------: | :---: | :------: |
-|  hypixel_apikey   | int  | 1145141919810 |  hypixel_apikey = 1145141919810   |  API  |    是    |
-| antisniper_apikey | int  | 1145141919810 | antisniper_apikey = 1145141919810 |  API  |    否    |
+|      config       | type |    default    |               example               | usage | 是否必须 |
+| :---------------: | :--: | :-----------: | :---------------------------------: | :---: | :------: |
+|  hypixel_apikey   | int  | 1145141919810 |  hypixel_apikey = '1145141919810'   |  API  |    是    |
+| antisniper_apikey | int  | 1145141919810 | antisniper_apikey = '1145141919810' |  API  |    否    |
 
 ## 指令结构帮助：
 
@@ -108,6 +108,7 @@ usage = """
 
 - [ ] 创建指令列表帮助
 - [ ] 增加玩家数据缓存
+- [x] 查询api 当前使用的API Key信息
 - [x] 查询玩家 Minecraft 信息及UUID
 - [x] 查询hypixel 个人信息
 - [x] 查询bedwars 起床战争数据
@@ -130,11 +131,13 @@ usage = """
 - [ ] 查询wshyp 起床战争其他模式连胜（Hypixel）
 - [ ] 查询optfine OptFine披风
 - [ ] 查询bans Hypixel今日封禁信息
-- [x] 查询api 当前使用的API Key信息
 
 <details>
     <summary><h2>更新日志</h2></summary>
 
+
+- v0.0.3
+  - ✨使用Pydantic管理插件配置项
 
 - v0.0.1
   - ✨增加minecraft个人信息查询
