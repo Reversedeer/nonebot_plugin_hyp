@@ -2,13 +2,11 @@
   <a href="https://nonebot.dev/"><img src="https://nonebot.dev/logo.png" width="200" height="200" alt="nonebot"></a>
 </p>
 
-
 <div align="center">
-
 
 # nonebot-plugin-hyp
 
-_✨ NoneBot X Hypixel小游戏服务器数据查询插件✨_
+_✨ NoneBot X Hypixel 小游戏服务器数据查询插件 ✨_
 
 </div>
 
@@ -25,22 +23,19 @@ _✨ NoneBot X Hypixel小游戏服务器数据查询插件✨_
   </a>
 </p>
 
-
-
-
 ## 介绍:
 
-> 一款旨在查询全球最大的小游戏服务器"Hypixel"玩家游戏数据信息及Minecraft-Mojang数据的插件
+> 一款旨在查询全球最大的小游戏服务器"Hypixel"玩家游戏数据信息及 Minecraft-Mojang 数据的插件
 >
 > 服务器内各种游戏数据，包括但不限于(Bedwars, Skywars, Skyblock...)
 >
 > 可查询自己及朋友或任何人已公开的数据
 >
-> 借助Antisniper 提供的api我们可以查询更多的数据
+> 借助 Antisniper 提供的 api 我们可以查询更多的数据
 
 > [!WARNING]
 >
-> /hypapi 指令请谨慎使用，此指令会发送当前使用的API, 鉴于现在API有一定的获取难度，我们不推荐随意使用
+> /hypapi 指令请谨慎使用，此指令会发送当前使用的 API, 鉴于现在 API 有一定的获取难度，我们不推荐随意使用
 >
 > 指令使用帮助仅展示受支持的指令，已实现的指令请看相关文件
 
@@ -53,7 +48,6 @@ nb plugin install nonebot-plugin-hyp
 ```
 
 ### pip
-
 
 ```python
 pip install nonebot-plugin-hyp
@@ -108,47 +102,46 @@ usage = """
 
 - [ ] 创建指令列表帮助
 - [ ] 增加玩家数据缓存
-- [x] 查询api 当前使用的API Key信息
-- [x] 查询玩家 Minecraft 信息及UUID
-- [x] 查询hypixel 个人信息
-- [x] 查询bedwars 起床战争数据
-- [x] 查询skywars 空岛战争数据
-- [ ] 查询megawalls 超级战墙数据
-- [ ] 查询duels 决斗游戏数据
-- [ ] 查询blitz 闪电饥饿游戏数据
-- [ ] 查询UHC 游戏数据
-- [ ] 查询murder 密室杀手游戏数据
-- [ ] 查询tntgames 掘战游戏数据
-- [ ] 查询pit 天坑之战游戏数据
-- [ ] 查询guildname 公会
-- [ ] 查询guild 玩家所在公会
-- [ ] 查询bwfav 玩家起床战争商店
-- [ ] 查询 denick 查询玩家Nick（Antisniper）
-- [ ] 查询findnick 查找Nick（Antisniper）
-- [ ] 查询winstreak 起床战争普通模式连胜（Antisniper）
-- [ ] 查询winstreakall 起床战争其他模式连胜（Antisniper）
-- [ ] 查询wsall 查询玩家起床战争普通模式连胜（Hypixel）
-- [ ] 查询wshyp 起床战争其他模式连胜（Hypixel）
-- [ ] 查询optfine OptFine披风
-- [ ] 查询bans Hypixel今日封禁信息
+- [x] 查询 api 当前使用的 API Key 信息
+- [x] 查询玩家 Minecraft 信息及 UUID
+- [x] 查询 hypixel 个人信息
+- [x] 查询 bedwars 起床战争数据
+- [x] 查询 skywars 空岛战争数据
+- [ ] 查询 megawalls 超级战墙数据
+- [ ] 查询 duels 决斗游戏数据
+- [ ] 查询 blitz 闪电饥饿游戏数据
+- [ ] 查询 UHC 游戏数据
+- [ ] 查询 murder 密室杀手游戏数据
+- [ ] 查询 tntgames 掘战游戏数据
+- [ ] 查询 pit 天坑之战游戏数据
+- [ ] 查询 guildname 公会
+- [ ] 查询 guild 玩家所在公会
+- [ ] 查询 bwfav 玩家起床战争商店
+- [ ] 查询 denick 查询玩家 Nick（Antisniper）
+- [ ] 查询 findnick 查找 Nick（Antisniper）
+- [ ] 查询 winstreak 起床战争普通模式连胜（Antisniper）
+- [ ] 查询 winstreakall 起床战争其他模式连胜（Antisniper）
+- [ ] 查询 wsall 查询玩家起床战争普通模式连胜（Hypixel）
+- [ ] 查询 wshyp 起床战争其他模式连胜（Hypixel）
+- [ ] 查询 optfine OptFine 披风
+- [ ] 查询 bans Hypixel 今日封禁信息
 
 <details>
     <summary><h2>更新日志</h2></summary>
 
+- v0.0.4
 
-- v0.0.3
-  - ✨使用Pydantic管理插件配置项
+  - ✨ 使用 Pydantic 管理插件配置项
 
 - v0.0.1
-  - ✨增加minecraft个人信息查询
-  - ✨增加hypixel个人数据查询
-  - ✨增加bedwars查询
-  - ✨增加skywars查询
-  - ✨增加apikey查询
 
+  - ✨ 增加 minecraft 个人信息查询
+  - ✨ 增加 hypixel 个人数据查询
+  - ✨ 增加 bedwars 查询
+  - ✨ 增加 skywars 查询
+  - ✨ 增加 apikey 查询
 
   </details>
-
 
 ## 关于 ISSUE
 
